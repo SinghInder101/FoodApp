@@ -8,7 +8,7 @@ import { NgForm } from '@angular/forms';
 import { Subscription } from 'rxjs';
 
 import { Ingredient } from '../../shared/ingredient.model';
-import { ShoppingListService } from '../shopping-list.service';
+import { ShoppingListService } from '../../core/shopping-list.service';
 
 @Component({
   selector: 'app-shopping-edit',
